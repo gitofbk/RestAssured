@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6353" started-at="2020-09-15T02:40:17 IST" finished-at="2020-09-15T02:40:24 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6008" started-at="2020-09-15T02:40:17 IST" finished-at="2020-09-15T02:40:23 IST">
+      <class name="scripts.Assignment">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="635" started-at="2020-09-15T02:40:17 IST" finished-at="2020-09-15T02:40:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void scripts.Assignment.testDelete(java.util.HashMap,java.lang.Object)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testDelete(java.util.HashMap, java.lang.Object)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="testDelete" duration-ms="1777" started-at="2020-09-15T02:40:18 IST" data-provider="Data_Delete" finished-at="2020-09-15T02:40:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Content-type=application/json; charset=UTF-8}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelete -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2d8f65a4]" name="afterMethod" is-config="true" duration-ms="248" started-at="2020-09-15T02:40:20 IST" finished-at="2020-09-15T02:40:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-15T02:40:20 IST" finished-at="2020-09-15T02:40:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void scripts.Assignment.testGet()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGet()[pri:0, instance:scripts.Assignment@2d8f65a4]" name="testGet" duration-ms="957" started-at="2020-09-15T02:40:20 IST" finished-at="2020-09-15T02:40:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2d8f65a4]" name="afterMethod" is-config="true" duration-ms="34" started-at="2020-09-15T02:40:21 IST" finished-at="2020-09-15T02:40:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-15T02:40:21 IST" finished-at="2020-09-15T02:40:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void scripts.Assignment.testGetWithFilePath(java.util.HashMap,java.lang.Object)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testGetWithFilePath(java.util.HashMap, java.lang.Object)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="testGetWithFilePath" duration-ms="275" started-at="2020-09-15T02:40:21 IST" data-provider="Data_Get" finished-at="2020-09-15T02:40:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Content-type=application/json; charset=UTF-8}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetWithFilePath -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2d8f65a4]" name="afterMethod" is-config="true" duration-ms="34" started-at="2020-09-15T02:40:21 IST" finished-at="2020-09-15T02:40:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-15T02:40:21 IST" finished-at="2020-09-15T02:40:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void scripts.Assignment.testPost(java.util.HashMap,java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testPost(java.util.HashMap, java.util.HashMap)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="testPost" duration-ms="962" started-at="2020-09-15T02:40:21 IST" data-provider="Data_Post" finished-at="2020-09-15T02:40:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Content-type=application/json; charset=UTF-8}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{title=foo, body=xybarz, userId=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPost -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2d8f65a4]" name="afterMethod" is-config="true" duration-ms="29" started-at="2020-09-15T02:40:22 IST" finished-at="2020-09-15T02:40:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-15T02:40:22 IST" finished-at="2020-09-15T02:40:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/posts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void scripts.Assignment.testPut(java.util.HashMap,java.util.HashMap)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testPut(java.util.HashMap, java.util.HashMap)[pri:0, instance:scripts.Assignment@2d8f65a4]" name="testPut" duration-ms="973" started-at="2020-09-15T02:40:22 IST" data-provider="Data_Put" finished-at="2020-09-15T02:40:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Content-type=application/json; charset=UTF-8}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{id=1, title=abc, body=xyz, userId=1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2d8f65a4]" name="afterMethod" is-config="true" duration-ms="26" started-at="2020-09-15T02:40:23 IST" finished-at="2020-09-15T02:40:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- scripts.Assignment -->
+    </test> <!-- Test -->
+    <test name="TestInvalid" duration-ms="330" started-at="2020-09-15T02:40:23 IST" finished-at="2020-09-15T02:40:24 IST">
+      <class name="scripts.InvalidCase">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:scripts.InvalidCase@2a742aa2]" name="initialize" is-config="true" duration-ms="171" started-at="2020-09-15T02:40:17 IST" finished-at="2020-09-15T02:40:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testInvalidPost()[pri:0, instance:scripts.InvalidCase@2a742aa2]" name="testInvalidPost" duration-ms="269" started-at="2020-09-15T02:40:23 IST" finished-at="2020-09-15T02:40:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPost -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.InvalidCase@2a742aa2]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-09-15T02:40:23 IST" finished-at="2020-09-15T02:40:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://jsonplaceholder.typicode.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[/invalidposts]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void scripts.InvalidCase.testInvalidPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.InvalidCase@2a742aa2]" name="afterMethod" is-config="true" duration-ms="57" started-at="2020-09-15T02:40:24 IST" finished-at="2020-09-15T02:40:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts.InvalidCase@2a742aa2]" name="tearDown" is-config="true" duration-ms="31" started-at="2020-09-15T02:40:24 IST" finished-at="2020-09-15T02:40:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- scripts.InvalidCase -->
+    </test> <!-- TestInvalid -->
+  </suite> <!-- Suite -->
+</testng-results>
