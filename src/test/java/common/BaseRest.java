@@ -1,5 +1,9 @@
 package common;
 
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
+
+import java.io.File;
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,6 +11,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
 import org.json.simple.JSONObject;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -118,6 +123,17 @@ public class BaseRest extends DP {
 		log(true, printResponse(response));
 	}
 
+	protected void validateSchema(File f)
+	{
+		response.then().assertThat().body(matchesJsonSchema(f));
+		try {
+			log(true,"Response Body matches with schema:"+newLine+FileUtils.readFileToString(f));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
 	protected void validateBody(HashMap<String, Object> params) {
 		validateRecordCount(1);
 		

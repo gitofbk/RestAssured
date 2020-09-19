@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="12289" started-at="2020-09-19T17:16:20 IST" finished-at="2020-09-19T17:16:32 IST">
+  <suite name="Suite" duration-ms="7626" started-at="2020-09-19T20:49:47 IST" finished-at="2020-09-19T20:49:54 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11895" started-at="2020-09-19T17:16:20 IST" finished-at="2020-09-19T17:16:32 IST">
+    <test name="Test" duration-ms="6977" started-at="2020-09-19T20:49:47 IST" finished-at="2020-09-19T20:49:54 IST">
       <class name="scripts.Assignment">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@3043fe0e]" name="beforeTest" is-config="true" duration-ms="491" started-at="2020-09-19T17:16:20 IST" finished-at="2020-09-19T17:16:20 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2a742aa2]" name="beforeTest" is-config="true" duration-ms="637" started-at="2020-09-19T20:49:47 IST" finished-at="2020-09-19T20:49:47 IST">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testDelete(java.util.HashMap, java.lang.Object)[pri:0, instance:scripts.Assignment@3043fe0e]" name="testDelete" duration-ms="6915" started-at="2020-09-19T17:16:20 IST" data-provider="Data_Delete" finished-at="2020-09-19T17:16:27 IST">
+        <test-method status="PASS" signature="testDelete(java.util.HashMap, java.lang.Object)[pri:0, instance:scripts.Assignment@2a742aa2]" name="testDelete" duration-ms="1670" started-at="2020-09-19T20:49:47 IST" data-provider="Data_Delete" finished-at="2020-09-19T20:49:49 IST">
           <params>
             <param index="0">
               <value>
@@ -44,11 +44,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDelete -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@3043fe0e]" name="afterMethod" is-config="true" duration-ms="180" started-at="2020-09-19T17:16:27 IST" finished-at="2020-09-19T17:16:27 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2a742aa2]" name="afterMethod" is-config="true" duration-ms="246" started-at="2020-09-19T20:49:49 IST" finished-at="2020-09-19T20:49:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@3043fe0e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-19T17:16:27 IST" finished-at="2020-09-19T17:16:27 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2a742aa2]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-19T20:49:49 IST" finished-at="2020-09-19T20:49:49 IST">
           <params>
             <param index="0">
               <value>
@@ -69,15 +69,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testGet()[pri:0, instance:scripts.Assignment@3043fe0e]" name="testGet" duration-ms="611" started-at="2020-09-19T17:16:27 IST" finished-at="2020-09-19T17:16:28 IST">
+        <test-method status="PASS" signature="testGet()[pri:0, instance:scripts.Assignment@2a742aa2]" name="testGet" duration-ms="969" started-at="2020-09-19T20:49:49 IST" finished-at="2020-09-19T20:49:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGet -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@3043fe0e]" name="afterMethod" is-config="true" duration-ms="38" started-at="2020-09-19T17:16:28 IST" finished-at="2020-09-19T17:16:28 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2a742aa2]" name="afterMethod" is-config="true" duration-ms="52" started-at="2020-09-19T20:49:50 IST" finished-at="2020-09-19T20:49:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@3043fe0e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-19T17:16:28 IST" finished-at="2020-09-19T17:16:28 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2a742aa2]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-19T20:49:50 IST" finished-at="2020-09-19T20:49:50 IST">
           <params>
             <param index="0">
               <value>
@@ -98,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testGetWithFilePath(java.util.HashMap, java.lang.Object)[pri:0, instance:scripts.Assignment@3043fe0e]" name="testGetWithFilePath" duration-ms="777" started-at="2020-09-19T17:16:28 IST" data-provider="Data_Get" finished-at="2020-09-19T17:16:29 IST">
+        <test-method status="PASS" signature="testGetWithFilePath(java.util.HashMap, java.lang.Object)[pri:0, instance:scripts.Assignment@2a742aa2]" name="testGetWithFilePath" duration-ms="1714" started-at="2020-09-19T20:49:50 IST" data-provider="Data_Get" finished-at="2020-09-19T20:49:52 IST">
           <params>
             <param index="0">
               <value>
@@ -114,11 +114,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetWithFilePath -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@3043fe0e]" name="afterMethod" is-config="true" duration-ms="39" started-at="2020-09-19T17:16:29 IST" finished-at="2020-09-19T17:16:29 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2a742aa2]" name="afterMethod" is-config="true" duration-ms="32" started-at="2020-09-19T20:49:52 IST" finished-at="2020-09-19T20:49:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@3043fe0e]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-19T17:16:29 IST" finished-at="2020-09-19T17:16:29 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2a742aa2]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-19T20:49:52 IST" finished-at="2020-09-19T20:49:52 IST">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testPost(java.util.HashMap, java.util.HashMap)[pri:0, instance:scripts.Assignment@3043fe0e]" name="testPost" duration-ms="1810" started-at="2020-09-19T17:16:29 IST" data-provider="Data_Post" finished-at="2020-09-19T17:16:31 IST">
+        <test-method status="PASS" signature="testPost(java.util.HashMap, java.util.HashMap)[pri:0, instance:scripts.Assignment@2a742aa2]" name="testPost" duration-ms="769" started-at="2020-09-19T20:49:52 IST" data-provider="Data_Post" finished-at="2020-09-19T20:49:53 IST">
           <params>
             <param index="0">
               <value>
@@ -155,11 +155,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPost -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@3043fe0e]" name="afterMethod" is-config="true" duration-ms="37" started-at="2020-09-19T17:16:31 IST" finished-at="2020-09-19T17:16:31 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2a742aa2]" name="afterMethod" is-config="true" duration-ms="35" started-at="2020-09-19T20:49:53 IST" finished-at="2020-09-19T20:49:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@3043fe0e]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-19T17:16:31 IST" finished-at="2020-09-19T17:16:31 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.Assignment@2a742aa2]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-09-19T20:49:53 IST" finished-at="2020-09-19T20:49:53 IST">
           <params>
             <param index="0">
               <value>
@@ -180,7 +180,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testPut(java.util.HashMap, java.util.HashMap)[pri:0, instance:scripts.Assignment@3043fe0e]" name="testPut" duration-ms="905" started-at="2020-09-19T17:16:31 IST" data-provider="Data_Put" finished-at="2020-09-19T17:16:31 IST">
+        <test-method status="PASS" signature="testPut(java.util.HashMap, java.util.HashMap)[pri:0, instance:scripts.Assignment@2a742aa2]" name="testPut" duration-ms="758" started-at="2020-09-19T20:49:53 IST" data-provider="Data_Put" finished-at="2020-09-19T20:49:54 IST">
           <params>
             <param index="0">
               <value>
@@ -196,19 +196,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPut -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@3043fe0e]" name="afterMethod" is-config="true" duration-ms="32" started-at="2020-09-19T17:16:31 IST" finished-at="2020-09-19T17:16:32 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.Assignment@2a742aa2]" name="afterMethod" is-config="true" duration-ms="29" started-at="2020-09-19T20:49:54 IST" finished-at="2020-09-19T20:49:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- scripts.Assignment -->
     </test> <!-- Test -->
-    <test name="TestInvalid" duration-ms="374" started-at="2020-09-19T17:16:32 IST" finished-at="2020-09-19T17:16:32 IST">
+    <test name="TestInvalid" duration-ms="632" started-at="2020-09-19T20:49:54 IST" finished-at="2020-09-19T20:49:54 IST">
       <class name="scripts.InvalidCase">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:scripts.InvalidCase@5bb21b69]" name="initialize" is-config="true" duration-ms="168" started-at="2020-09-19T17:16:19 IST" finished-at="2020-09-19T17:16:20 IST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:scripts.InvalidCase@29b5cd00]" name="initialize" is-config="true" duration-ms="131" started-at="2020-09-19T20:49:47 IST" finished-at="2020-09-19T20:49:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.InvalidCase@5bb21b69]" name="beforeTest" is-config="true" duration-ms="2" started-at="2020-09-19T17:16:32 IST" finished-at="2020-09-19T17:16:32 IST">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:scripts.InvalidCase@29b5cd00]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-09-19T20:49:54 IST" finished-at="2020-09-19T20:49:54 IST">
           <params>
             <param index="0">
               <value>
@@ -229,15 +229,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testInvalidPost()[pri:0, instance:scripts.InvalidCase@5bb21b69]" name="testInvalidPost" duration-ms="323" started-at="2020-09-19T17:16:32 IST" finished-at="2020-09-19T17:16:32 IST">
+        <test-method status="PASS" signature="testInvalidPost()[pri:0, instance:scripts.InvalidCase@29b5cd00]" name="testInvalidPost" duration-ms="584" started-at="2020-09-19T20:49:54 IST" finished-at="2020-09-19T20:49:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidPost -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.InvalidCase@5bb21b69]" name="afterMethod" is-config="true" duration-ms="45" started-at="2020-09-19T17:16:32 IST" finished-at="2020-09-19T17:16:32 IST">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:scripts.InvalidCase@29b5cd00]" name="afterMethod" is-config="true" duration-ms="45" started-at="2020-09-19T20:49:54 IST" finished-at="2020-09-19T20:49:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts.InvalidCase@5bb21b69]" name="tearDown" is-config="true" duration-ms="25" started-at="2020-09-19T17:16:32 IST" finished-at="2020-09-19T17:16:32 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:scripts.InvalidCase@29b5cd00]" name="tearDown" is-config="true" duration-ms="34" started-at="2020-09-19T20:49:54 IST" finished-at="2020-09-19T20:49:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,8 +1,13 @@
 package scripts;
 
+import java.io.File;
+import java.io.IOException;
+
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.apache.commons.io.FileUtils;
 import org.json.simple.JSONObject;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -44,6 +49,9 @@ public class Assignment extends BaseRest {
 		response = get(path);
 		validate(200,"application/json; charset=utf-8");
 		validateBody(path);
+		File schema=new File("src/test/resources/responseschema.json");
+		validateSchema(schema);
+		
 	}
 
 	@Test(dataProvider = "Data_Post", dataProviderClass = DP.class)
@@ -52,6 +60,8 @@ public class Assignment extends BaseRest {
 		response = post(getParams(params));
 		validate(201,"application/json; charset=utf-8");
 		validateBody(params);
+		File schema=new File("src/test/resources/responseschema.json");
+		validateSchema(schema);
 	}
 
 	@Test(dataProvider = "Data_Put", dataProviderClass = DP.class)
@@ -60,6 +70,8 @@ public class Assignment extends BaseRest {
 		response = put(getParams(params));
 		validate(200,"application/json; charset=utf-8");
 		validateBody(params);
+		File schema=new File("src/test/resources/responseschema.json");
+		validateSchema(schema);
 	}
 
 	@Test(dataProvider = "Data_Delete", dataProviderClass = DP.class)

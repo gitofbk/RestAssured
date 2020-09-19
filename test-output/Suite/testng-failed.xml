@@ -11,7 +11,7 @@
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="tearDown"/>
-          <include name="testGet"/>
+          <include name="testGetWithFilePath" invocation-numbers="0"/>
         </methods>
       </class> <!-- scripts.Assignment -->
     </classes>
