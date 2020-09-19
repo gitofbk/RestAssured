@@ -1,7 +1,9 @@
 package common;
 
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -87,19 +89,26 @@ public class BaseRest extends DP {
 	
 	protected void validateRecordCount(int n)
 	{
-		List<Integer> actual=response.jsonPath().getList("id");
-		if(actual.size()==n)
+		int size=0;
+		System.out.println(response.jsonPath().getJsonObject("$").getClass());
+		if(response.jsonPath().getJsonObject("$").getClass().equals(ArrayList.class))
+		{
+			size=response.jsonPath().getList("$").size();
+		}else if(response.jsonPath().getJsonObject("$").getClass().equals(LinkedHashMap.class))
+			size=1;
+			
+		if(size==n)
 			log(true,"Number of records returned is "+n);
 		else
 			log(false,"Number of records Validation"+seperator
 					+newLine+"Expected"+seperator+n
-					+newLine+"Actual"+seperator+actual.size());
+					+newLine+"Actual"+seperator+size);
 			log(true, printResponse(response));
 
 	}
 
 	protected void validateBody( Object id) {
-		
+		validateRecordCount(1);
 		String actual = response.jsonPath().getString("id");
 		if(actual.equals(id.toString()))
 			log(true, bold("id" + seperator + id));
@@ -110,6 +119,7 @@ public class BaseRest extends DP {
 	}
 
 	protected void validateBody(HashMap<String, Object> params) {
+		validateRecordCount(1);
 		
 		String message;
 		for (Map.Entry<String, Object> param : params.entrySet()) {

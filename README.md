@@ -1,1 +1,1 @@
-# RestAssured
+Run testNG.xml as testNG suite to execute the tests
